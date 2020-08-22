@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      body{
+        display: flex;
+        justify-content: center;
+      }
+      p {
+        width: 100px;
+        height: 100px;
+        color: white;
+        flex-grow: 1;
+        margin: 5px;
+        align-items: center;
+      }
+      #p1 {background-color: green;}
+      #p2 {background-color: blue;}
+      #p3 {background-color: red;}
+      
+      #container{
+        background-color: #777;
+        width: 700px;
+        height: 400px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+    </style>
+  </head>
+
+  <body>
+    <div id="container">
+      <p id="p1"> PARÁGRAFO 1 </p>
+      <p id="p2"> PARÁGRAFO 2 </p>
+      <p id="p3"> PARÁGRAFO 3 </p>
+    </div>
+
+  </body>
+
+</html>
